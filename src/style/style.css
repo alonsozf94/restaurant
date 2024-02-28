@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 0;
+  padding: 30px 150px 20px 150px;
+}
+body > * {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em;
+}
+.nav-btn {
+  background: none;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  font-size: 1.3em;
+}
+footer {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* Home */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home-logo {
+  width: 300px;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.product-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-icon {
+  font-size: 6.5em;
+}
+
+/* About */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.4em;
+  font-weight: normal;
+}
+.about ul {
+  list-style-type: none;
+  padding: 0;
+}
+.about .about-heading {
+  font-weight: bold;
+}
+.about ul li {
+  margin-bottom: 25px;
+}
