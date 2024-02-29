@@ -1,6 +1,5 @@
 // Imports
 import "./style/style.css";
-import logo from "./assets/bakery_logo.png";
 import home from "./modules/home.js"
 import menu from "./modules/menu.js"
 import about from "./modules/about.js"
